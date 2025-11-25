@@ -10,7 +10,7 @@ print()
 name = input("Enter your name: ")
 print(f"\nHello {name}! Let's whip up a strong password for you.\n")
 
-# Ask for the desired password length
+# Ask for the desired password length and display the following 
 while True:
     try:
         length = int(input("How long should your password be? (minimum 6): "))
